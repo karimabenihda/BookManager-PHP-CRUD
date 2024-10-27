@@ -148,7 +148,7 @@ if (isset($_POST['edit'])) {
 <body>
 <nav class="navbar navbar-expand-lg">
     <div class="container-fluid">
-        <a class="navbar-brand text-secondary" href="#">Mon Livre</a>
+        <a class="navbar-brand text-secondary" href="#">KB Livres</a>
         <img id="logo" width="111px" src="./uploads/logo3.jpg">
     </div>
 </nav>
@@ -195,7 +195,7 @@ if (isset($_POST['edit'])) {
                             <label for="image" class="form-label">Image</label>
                             <input type="file" class="form-control" name="image" accept="image/*" required>
                         </div>
-                        <button type="submit" name="add" class="btn btn-primary">Ajouter</button>
+                        <button type="submit" name="add" class="btn btn-success">Ajouter le Livre</button>
                     </form>
                 </div>
             </div>
@@ -241,7 +241,7 @@ if (isset($_POST['edit'])) {
                             ?>
                         </select>
                     </div>
-                    <button type="submit" class="btn btn-primary">Submit Changes</button>
+                    <button type="submit" class="btn btn-success">Enregistrer les modifications </button>
                 </form>
             </div>
         </div>
@@ -276,7 +276,7 @@ if (isset($_POST['edit'])) {
                     <td>{$row['categorie_name']}</td>
                     <td>
                         <a href='index.php?id={$row['id']}' class='btn btn-warning' data-bs-toggle='modal' data-bs-target='#editBookModal'>Modifier</a>
-                        <a href='delete.php?id={$row['id']}' class='btn btn-danger'>Supprimer</a>
+                        <a href='delete.php?id={$row['id']}' class='btn btn-danger'> </a>
                     </td>
                   </tr>";
         }
