@@ -276,7 +276,7 @@ if (isset($_POST['edit'])) {
                     <td>{$row['categorie_name']}</td>
                     <td>
                         <a href='index.php?id={$row['id']}' class='btn btn-warning' data-bs-toggle='modal' data-bs-target='#editBookModal'>Modifier</a>
-                        <a href='delete.php?id={$row['id']}' class='btn btn-danger'> </a>
+                        <a href='delete.php?id={$row['id']}' class='btn btn-danger'>Delete </a>
                     </td>
                   </tr>";
         }
